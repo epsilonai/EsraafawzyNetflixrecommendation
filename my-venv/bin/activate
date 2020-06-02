@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/media/mr/092E1B38092E1B38/esraa/data science diploma /final project/Netflix-recommendation-project/my-venv/bin/activate"
+VIRTUAL_ENV="/media/mr/092E1B38092E1B38/esraa/data science diploma /final project/Netflix-recommendation-project/my-venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    if [ "x(activate) " != x ] ; then
-	PS1="(activate) ${PS1:-}"
+    if [ "x(my-venv) " != x ] ; then
+	PS1="(my-venv) ${PS1:-}"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories

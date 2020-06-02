@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/media/mr/092E1B38092E1B38/esraa/data science diploma /final project/Netflix-recommendation-project/my-venv/bin/activate"
+set -gx VIRTUAL_ENV "/media/mr/092E1B38092E1B38/esraa/data science diploma /final project/Netflix-recommendation-project/my-venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +52,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(activate) "
-            printf "%s%s" "(activate) " (set_color normal)
+        if test -n "(my-venv) "
+            printf "%s%s" "(my-venv) " (set_color normal)
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")

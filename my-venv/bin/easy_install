@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/media/mr/092E1B38092E1B38/esraa/data science diploma /final project/Netflix-recommendation-project/my-venv/bin/activate/bin/python" "$0" "$@"
+'''exec' "/media/mr/092E1B38092E1B38/esraa/data science diploma /final project/Netflix-recommendation-project/my-venv/bin/python" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
